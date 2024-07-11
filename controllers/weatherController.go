@@ -7,7 +7,6 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// WeatherController handles weather-related requests
 type WeatherController struct {
 	WeatherService *services.WeatherService
 }
